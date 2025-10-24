@@ -129,13 +129,13 @@ for_window [instance="Godot_Engine" class="^(?!Godot).*$"] floating enable
 # OBS:
 #
     #Save Replay
-    bindsym $mod+Shift+z exec /home/protogenposting/Desktop/scripts/save\ replay.sh
+    bindsym $mod+Shift+z exec ~/.config/sway/Script/savereplay.sh
 
     #Toggle Recording
-    bindsym $mod+Shift+x exec /home/protogenposting/Desktop/scripts/record.sh
+    bindsym $mod+Shift+x exec ~/.config/sway/Scripts/record.sh
 
     #Start Songs
-    bindsym $mod+Shift+p exec foot /home/protogenposting/Desktop/scripts/startPlaylist.sh
+    bindsym $mod+Shift+p exec foot ~/.config/sway/Scripts/startPlaylist.sh
 
 #
 # Workspaces:
