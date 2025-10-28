@@ -129,7 +129,7 @@ for_window [instance="Godot_Engine" class="^(?!Godot).*$"] floating enable
 # OBS:
 #
     #Save Replay
-    bindsym $mod+Shift+z exec ~/.config/sway/Script/savereplay.sh
+    bindsym $mod+Shift+z exec ~/.config/sway/Scripts/savereplay.sh
 
     #Toggle Recording
     bindsym $mod+Shift+x exec ~/.config/sway/Scripts/record.sh
