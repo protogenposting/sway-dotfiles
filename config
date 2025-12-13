@@ -10,6 +10,8 @@ exec --no-startup-id /usr/lib/xdg-desktop-portal-gtk -r
 
 exec linux-discord-rich-presence -c ~/.config/linux-discord-rich-presencerc
 
+exec swaync
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -23,6 +25,11 @@ set $right l
 set $term foot
 # Your preferred application launcher
 set $menu fuzzel
+
+set $transparent opacity 0.95
+
+###WINDOWS
+for_window [all] $transparent
 
 ### Output configuration
 #
@@ -235,6 +242,8 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
     bindsym Print exec grim
+    # Toggle control center
+    bindsym $mod+Shift+n exec swaync-client -t -sw
 
 #
 # Status Bar:
