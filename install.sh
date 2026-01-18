@@ -1,3 +1,3 @@
 echo "installing stuff!!!"
-sudo pacman -S sddm sway xdg-desktop-portal mpv dolphin foot fuzzel fish discord slurp wl-clipboard grim swaybg swaync
+sudo pacman -S sddm sway xdg-desktop-portal mpv dolphin foot fuzzel fish discord slurp wl-clipboard grim swaybg swaync swaybar
 yay -S linux-discord-rich-presence obs-cmd
